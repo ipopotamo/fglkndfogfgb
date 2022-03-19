@@ -1,0 +1,20 @@
+package main;
+
+public class main {
+	public static void main(String[] args) {
+		
+		//instancio la clase
+		Celular objCelular = new Celular();
+		
+		//texto random
+		System.out.println("/game mode 0");
+		
+		
+		
+		//metodes 
+		objCelular.ola();
+		objCelular.llamar("juan");
+		objCelular.cortarLlamada();
+		objCelular.informarCaracteristicas();
+	}
+}
